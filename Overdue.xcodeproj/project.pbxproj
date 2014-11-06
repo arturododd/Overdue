@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAD24D491A0B2572001A464E /* ADTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD24D481A0B2572001A464E /* ADTask.m */; };
 		BAF38E781A09C95700D85451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF38E771A09C95700D85451 /* Foundation.framework */; };
 		BAF38E7A1A09C95700D85451 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF38E791A09C95700D85451 /* CoreGraphics.framework */; };
 		BAF38E7C1A09C95700D85451 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF38E7B1A09C95700D85451 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BAD24D471A0B2572001A464E /* ADTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTask.h; sourceTree = "<group>"; };
+		BAD24D481A0B2572001A464E /* ADTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTask.m; sourceTree = "<group>"; };
 		BAF38E741A09C95700D85451 /* Overdue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overdue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF38E771A09C95700D85451 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAF38E791A09C95700D85451 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAD24D461A0B254E001A464E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAD24D471A0B2572001A464E /* ADTask.h */,
+				BAD24D481A0B2572001A464E /* ADTask.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		BAF38E6B1A09C95700D85451 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +145,7 @@
 				BAF38EB21A09C9E500D85451 /* ADEditTaskViewController.h */,
 				BAF38EB31A09C9E500D85451 /* ADEditTaskViewController.m */,
 				BAF38E8F1A09C95700D85451 /* Images.xcassets */,
+				BAD24D461A0B254E001A464E /* Models */,
 				BAF38E7E1A09C95700D85451 /* Supporting Files */,
 			);
 			path = Overdue;
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD24D491A0B2572001A464E /* ADTask.m in Sources */,
 				BAF38EAE1A09C9C800D85451 /* ADAddTaskViewController.m in Sources */,
 				BAF38E841A09C95700D85451 /* main.m in Sources */,
 				BAF38E8E1A09C95700D85451 /* ADViewController.m in Sources */,
@@ -475,6 +489,7 @@
 				BAF38EA81A09C95700D85451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAF38EA91A09C95700D85451 /* Build configuration list for PBXNativeTarget "OverdueTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +498,7 @@
 				BAF38EAB1A09C95700D85451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
